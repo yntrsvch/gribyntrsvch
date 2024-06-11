@@ -68,7 +68,7 @@ void print_grib_info(const char* file_path) {
         std::cout << "Identification of sub Center: " << subCenter << "\n";
         std::cout << "Decimal Scale factor: " << decimalScale << "\n";
 
-        // You can extract and print more sections similarly
+        
 
         codes_handle_delete(h);
     }
